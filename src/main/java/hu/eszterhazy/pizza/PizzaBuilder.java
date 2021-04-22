@@ -1,8 +1,8 @@
 package hu.eszterhazy.pizza;
 
 public interface PizzaBuilder {
-    void addCheese();
-    void addHam();
-    void addMushroom();
-    void build();
+    PizzaBuilder addCheese();
+    PizzaBuilder addHam();
+    PizzaBuilder addMushroom();
+    Pizza build();
 }
